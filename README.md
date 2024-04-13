@@ -1,7 +1,9 @@
 # CS410-Assignment-2
 
 Authors: Alexandr, Chase, Etienne, Jordan
+
 Professor Wills
+
 Spring, 2024
 
 ## 1. [10] Get this downloaded and running:
