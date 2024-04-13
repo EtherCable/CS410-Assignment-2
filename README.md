@@ -1,6 +1,8 @@
 # CS410-Assignment-2
 
 Authors: Alexandr, Chase, Etienne, Jordan
+Professor Wills
+Spring, 2024
 
 ## 1. [10] Get this downloaded and running:
 https://assetstore.unity.com/packages/essentials/tutorial-projects/unity-learn-3d-beginner-complete-project-urp-143846
