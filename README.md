@@ -18,7 +18,10 @@ Implmented by:
 Implmented by:
 
 ## 4. [20] Add at least one new particle effect and trigger(s).
-Implmented by:
+Implmented by: Alexandr Iapara
+- Crying Partcle effect following player model.
+- Spinning Star with yellow particles that vanishes when player collides with it.
+- Red trail following the player and slowly vanishing/shortening over time.
 
 ## 5. [20] Add at least one new sound effect and trigger(s).
 Implemented by: Etienne
