@@ -40,9 +40,7 @@ public class ClockTipController : MonoBehaviour
             if ((dir < 0 && dir > -0.7) && (playerTf.position.z < clockTf.position.z))
             {
                 // if in front of and facing clock, show tip
-                // because of perpendicular forward, check for positive z in fwd
-                if (playerFwd.z > 0)
-                    tooltip.SetActive(true);
+                tooltip.SetActive(true);
             } else {
                 tooltip.SetActive(false);
             }
