@@ -12,7 +12,7 @@ https://assetstore.unity.com/packages/essentials/tutorial-projects/unity-learn-3
 Implemented by: Etienne
 
 ## 2. [20] Add at least one gameplay element that uses a dot product in some way (e.g., calculate length, distance, angle, facing direction).
-Implemented by: Jordan
+Implemented by: Jordan Reedy
 
 The dot product is used to calculate 2 things: first, how close the player is to the clock that provides the tooltip, and second to check whether the forward of the player is perpendicular to the forward of the clock. When the character is close enough to the clock, which is placed in the middle of the room and next to particles so that the player will investigate it, a tooltip appears that gives the player some instructions for the game. There was an unfortunate moment where the programmer for this task realized that the forward of the clock is somehow projected out the side, so the calculations were altered to check for perpendicular forwards, so the clock will ring out it's warning while the player walks directly away from it as well. The programmer made this a feature and not a bug, letting the message ring out after the character increases the creep factor.
 
