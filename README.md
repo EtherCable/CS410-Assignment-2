@@ -17,7 +17,9 @@ Implemented by: Jordan Reedy
 The dot product is used to calculate 2 things: first, how close the player is to the clock that provides the tooltip, and second to check whether the forward of the player is perpendicular to the forward of the clock. When the character is close enough to the clock, which is placed in the middle of the room and next to particles so that the player will investigate it, a tooltip appears that gives the player some instructions for the game. There was an unfortunate moment where the programmer for this task realized that the forward of the clock is somehow projected out the side, so the calculations were altered to check for perpendicular forwards, so the clock will ring out it's warning while the player walks directly away from it as well. The programmer made this a feature and not a bug, letting the message ring out after the character increases the creep factor.
 
 ## 3. [20] Add at least one gameplay element that uses linear interpolation in some way (e.g., calculate intermediate position, orientation, color).
-Implemented by:
+Implemented by: Chase Maslow
+
+Ghosts now have a point light that illuminates the area they can see. It is normally white, but as John Lemon approaches it turns red, showing the player how close they are to getting caught. The reddening of the light's color is calculated by Color.Lerp().
 
 ## 4. [20] Add at least one new particle effect and trigger(s).
 Implemented by: Alexandr Iapara
